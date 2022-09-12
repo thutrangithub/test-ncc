@@ -1,0 +1,32 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 6.5rem 0 6.5rem;
+    gap: 1rem;
+  }
+  
+  .secContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper {
+    display: flex;
+    margin-top: 1.125rem;
+  }
+  
+  .secContent img {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+  }
+  .secContent span:nth-child(1) {
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+  
+  .secContent span:nth-child(2),
+  .secContent span:nth-child(3) {
+    font-size: 0.75rem;
+  }

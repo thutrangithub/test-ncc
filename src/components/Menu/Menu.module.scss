@@ -1,0 +1,20 @@
+.c-left {
+    width: 150px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #191718;
+  }
+  
+  .c-left > ul {
+    color: #ffff;
+    font-size: 0.75rem;
+  }
+  
+  .c-left > ul > li {
+    height: 44px;
+    list-style: none;
+    border-bottom: 1px solid #5c5c5c;
+    padding: 0.875rem 4.4375rem 0.6875rem 1rem;
+  }
